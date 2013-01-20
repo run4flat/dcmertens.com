@@ -2,6 +2,6 @@
 
 use Mojolicious::Lite;
 
-get '/' => {text => 'Hello Mojo!'};
+get '/' => {text => "This is David Mertens' website. More will come soon, I assure you."};
 
 app->start;
