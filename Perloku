@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./application.pl daemon -l http://*:$PORT -m production
