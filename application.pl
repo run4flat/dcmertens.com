@@ -39,12 +39,19 @@ __DATA__
 		</div>
 		<div class="span4">
 			<h2>Computing</h2>
-			<p>I enjoy computing, and I regularly contribute to open source projects including PDL, the Perl Data Language.</p>
+			<p>
+				I enjoy computing, and I regularly contribute to open source
+				projects including <a href="http://pdl.perl.org">PDL</a>, the Perl
+				Data Language.
+			</p>
 			<p><a class="btn" href="#">View details »</a></p>
 		</div>
 		<div class="span4">
 			<h2>Fun</h2>
-			<p>I do other things to keep myself happy, too, including cooking and singing in my church choir.</p>
+			<p>
+				I do other things to keep myself happy, too, including
+				running, cycling, making music, and taking care of my cats.
+			</p>
 			<p><a class="btn" href="#">View details »</a></p>
 		</div>
 	</div>
