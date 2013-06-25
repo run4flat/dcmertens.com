@@ -1,0 +1,46 @@
+I will have a number of web presences when I begin working at Dickinson. These 
+include my faculty profile, my personal web page hosted by Dickinson (I presume 
+such pages are offerred by Dickinson to faculty members), the web pages for the 
+courses that I teach, my LinkedIn profile, and finally my own site, 
+dcmertens.com. How shall I organize these?
+
+I feel that my faculty profile page and my LinkedIn profile are little more than 
+a jumping-off points where others can find me. People who land on these pages 
+will be directed to the other sites as appropriate.
+
+The focus of my personal web site on Dickinson shall be my students. I will have 
+a section dedicated to my current teaching and a section dedicated to student 
+research. The course-related content will include the course syllabi and other 
+course documents as well as online homework submission, if appropriate for the 
+course. The research-related content will contain useful information about my 
+student research projects and research opportunities. An optional part of the 
+student research will be the maintainance of a research page that covers their 
+work. This will be an important resource not only for future student recruiting, 
+but also for the students' web presence after they graduate.
+
+My own site, dcmertens.com, will be the public face of my professional work, and 
+will be aimed towards my professional colleagues. A portion of the site will 
+focus on my primary research, which at the moment is my synchronization work. 
+Part of the site should focus on my Perl work and other software development. 
+The site should contain my blog posts, which themselves should focus mostly on 
+my professional endeavors.
+
+The issue becomes murky when I have content that would be of interest to both my 
+colleagues and my students, which will occur when discussing my 
+student-accessible research. Furthermore, the notion of any substantial body of 
+static text that needs to be "brushed up" sounds like a system optimized to 
+produce out-of-date information. All of this seems to suggest that I should view 
+both my Dickinson site and dcmertens.com as two front-ends to the same general 
+publishing back-end. The bulk of the material will be in the form of dated blog 
+posts and different pages on the site will consolidate and display the 
+appropriate posts. Each blog post will be tagged with the appropriate topic(s). 
+In fact, I could even run all of this off of the same Dickinson server and 
+simply examine the url request to determine if I should serve the dcmertens.com 
+content (and style) or the Dickinson content (and style).
+
+So, both dcmertens.com and users.dickinson.edu/~dcmertens will be served from 
+the same server. Their content will be generated from the same system. My 
+personal web site will include information about my synchronization research and 
+my Perl work, whereas my Dickinson web site will include information about my 
+teaching, opportunities for student research, and my students' entries about 
+their own research.
