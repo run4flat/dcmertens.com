@@ -1,3 +1,5 @@
+=pod
+
 I will have a number of web presences when I begin working at Dickinson. These 
 include my faculty profile, my personal web page hosted by Dickinson (I presume 
 such pages are offerred by Dickinson to faculty members), the web pages for the 
@@ -44,3 +46,5 @@ personal web site will include information about my synchronization research and
 my Perl work, whereas my Dickinson web site will include information about my 
 teaching, opportunities for student research, and my students' entries about 
 their own research.
+
+=cut

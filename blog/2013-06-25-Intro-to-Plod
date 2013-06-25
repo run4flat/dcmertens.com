@@ -1,0 +1,133 @@
+use strict;
+use warnings;
+use Plod;
+
+print <<'FINE';
+
+=pod
+
+This is the first in a weekly series called Technical Tuesdays. Naturally,
+I spent most of my time for this setting up the system I intend to use,
+rather than actually writing. Still, I hope that this little introduction
+will be useful.
+
+Eight months ago (November, 2012), somebody wrote into the PDL mailing
+list asking if PDL had any sort of Notebook functionality. Presently,
+PDL does not have this sort of functionality. (With recent progress on
+App::Prima::REPL, however, this functionality is on the horizon.) In my
+reply, I suggested that the author use Perl's built-in documentation
+facility, called POD, for Plain Old Documentation.
+
+The problem with POD is that code examples are strictly part of the
+documentation: they are not actually run during the execution of your
+code. Usually this is considered a Good Thing because you can include
+code snippets that convey your meaning even if they do not quite
+compile into runnable Perl code. Still, for a notebook sort of
+functionality, it would be nice if the code snippets in POD B<could>
+be executed. I realized that this could be achieved with a source filter,
+and so Plod was born.
+
+=head2 Using Plod
+
+How does one use Plod? Just like any other source filter, you just say
+C<use Plod> at the top of your script:
+
+ # A complete Plod script
+ use strict;
+ use warnings;
+ use Plod;
+ 
+ print "Hello!\n";
+
+Of course, this doesn't actually make use of Plod. We want to have a
+script that has runnable code examples. For that, you mark your
+executable code with C<=for code> statements:
+
+=for code
+
+ use strict;
+ use warnings;
+ use Plod;
+ 
+ print "This is run before the documentation.\n";
+ 
+ =head1 EXAMPLE
+ 
+ This is an example Plod document. This code will be run when you
+ run this script:
+ 
+ =for code
+ 
+   print "Hello from the pod code snippet!\n";
+ 
+ This indented section is just indented code and does not get
+ run when you run your script
+ 
+   die "Kaboom!";
+ 
+ It's that simple!
+ 
+ =cut
+ 
+ print "This is run after the documentation.\n";
+
+When you run this script, you will see the following output:
+
+ This is run before the documentation.
+ Hello from the pod code snippet!
+ This is run after the documentation.
+
+and when viewed by a POD renderer, the output will be as if the renderer
+had seen this:
+
+ =head1 EXAMPLE
+ 
+ This is an example Plod document. This code will be run when you
+ run this script:
+ 
+   print "Hello from the pod code snippet!\n";
+ 
+ This indented section is just indented code and does not get
+ run when you run your script
+ 
+   die "Kaboom!";
+ 
+ It's that simple!
+ 
+ =cut
+
+=head2 Caveats
+
+There are two things to note. First, in order for the code example to
+be displayed by your pod renderer, you B<MUST> put a completely empty
+line between the C<=for code> statement and the indented code block.
+As a corallary, if you want to sprinkle some executable code among your
+documentation that is executed but B<not> displayed, you should ensure
+that your indented code begins on the very next line.
+
+ =for code
+ 
+   # This indented code block will be displayed by pod renderers
+ 
+ =for code
+   This indendeted code block will not be displayed
+
+Second, your indented code must use the same initial spacing on all
+indented lines. If your first line is indented with two spaces, all
+lines following must also begin with two spaces.
+
+I will make use of Plod, or similar things, in my blog for coming
+Technical Tuesday writing. I'm sure it'll develop as it gets used. Stay
+tuned!
+
+=head2 About the Name
+
+The name Plod was chosen because it's a combination of the standard
+Perl executable extension (pl) and the standard POD extension (pod).
+Since this combines Perl code and documentation, we get
+
+ pl + pod = plod
+
+=cut
+
+FINE

@@ -1,0 +1,87 @@
+use strict;
+use warnings;
+use Plod;
+
+=pod
+
+This is an introductory article about my plotting library, PDL::Graphics::Prima, 
+which you can find at L<http://p3rl.org/PDL::Graphics::Prima>. This aims to be
+an alternative introductory sequence compared to the documentation in 
+L<http://p3rl.org/PDL::Graphics::Prima::Simple>. If anything seems incomplete,
+you should consult that documentation.
+
+Let's begin with an extremely simple plot script. First initialize the
+data:
+
+=for code
+
+ use strict;
+ use warnings;
+ use PDL;
+ use PDL::Graphics::Prima::Simple;
+ 
+ # Generate some noisy data
+ my $x = sequence(100)/10;
+ my $y = $x->sin + $x->grandom;
+
+=for code
+ # Capture the output of the example coming up
+ do {
+
+Then plot it:
+
+=for code
+
+ # Plot the data
+ line_plot($x, $y);
+
+=for code
+ # Save the result of what was just run in the filename that we want to
+ # use in this document.
+ }->save_to_file('2013-07-02-fig-1.jpg');
+
+If you have installed PDL::Graphics::Prima and you you run that script, you
+should see something that looks like this:
+
+=for html
+<img src="2013-07-02-fig-1.jpg" />
+
+=for podview <img src="2013-07-02-fig-1.jpg" />
+
+Although C<line_plot> is handy, I prefer to work with the full C<plot> command:
+
+=for code
+
+ # Plot the data
+ plot(
+     -data => ds::Pair($x, $y, plotType => ppair::Lines)
+ );
+
+Although this is quite a bit more verbose, adding additional bits of
+notation is easier:
+
+=for code
+ do {
+
+=for code
+
+ plot(
+     -data => ds::Pair($x, $y, plotType => ppair::Lines),
+     x => { label => 'Time [s]' },
+     y => { label => 'Amplitude [mm]' },
+     title => 'Crappy speaker',
+ );
+
+=for code
+ }->save_to_file('2013-07-02-fig-2.jpg');
+
+which gives a figure like this:
+
+=for html
+<img src="2013-07-02-fig-2.jpg" />
+
+=for podview <img src="2013-07-02-fig-2.jpg" />
+
+
+
+=cut
