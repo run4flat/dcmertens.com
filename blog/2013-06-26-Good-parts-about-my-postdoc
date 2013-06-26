@@ -1,0 +1,43 @@
+=pod
+
+With my postdoc at the Amaral Lab in its final days, I wanted to take some time 
+to reflect on what has gone well and what has gone poorly. Today I focus on what 
+I can learn from the positive aspects of this experience.
+
+One of the most impressive parts of the group when I interviewed was the group 
+meeting. I was particularly impressed that they reviewed the journals every week 
+because I do not keep up on the literature on my own. The group meetings had 
+their drawbacks, of course. Journal summaries of Nature and Science are a waste 
+of time for most of us because they don't have anything interesting for most of 
+us. Also, group meetings are run in a lecture style, which makes conversation 
+difficult, at best. We could put these two problems together and instead have a 
+group meeting around a conference table and have journal summaries be journal 
+reports. For journal reports, a student would simply print off figures or 
+articles that they thought everybody would care about, and if there was nothing 
+of interest, nothing would be discussed. I could occasionally spot-check an 
+issue of Nature or Science to be sure that the student didn't miss anything. If 
+we had trouble controlling the flow of the conversation, a plush toy would be an 
+easy solution. But, generally, having weekly group meetings is a good idea, and 
+journal reviews give consistent substance to something that might otherwise have 
+only occasional substance.
+
+I really like that the Amaral Lab goes out to lunch together. I am reminded also 
+of Karin Dahmen's group, in which Karin would join the grad students once a 
+week, usually on Thursdays, to go out to lunch. Otherwise, they just ate on 
+their own. Generally, I think that community meals are productive and help 
+lubricate technical conversations. I do not like the notion of eating together 
+every single day, as is the practice here, but that will not be much of an
+option at Dickinson.
+
+For the most part, the technology Just Works in the Amaral Lab. There are lots 
+of workstations and I can log in to each workstation and get the same desktop. 
+This helps me focus on my research and not waste time fiddling with 
+configuration. If there is any trouble with my machine but I don't have time to 
+debug what's going on, I can temporarily switch to another one and keep working. 
+All of this points to the notion that I should make my own research group's 
+setup as simple as possible so that my students can get going with a minimum of 
+fuss. Whether this comes in the form of a one-click installer for my group's 
+software, or a VirtualBox image with all of the software preloaded, the point is 
+that the software setup should be as easy as possible.
+
+=cut
