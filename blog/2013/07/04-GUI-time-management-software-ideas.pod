@@ -1,0 +1,90 @@
+=pod
+
+On L<June 23|http:/blog/06/23-Reflections-on-Time-Management.pod> I wrote about 
+the struggles I had with time management during my postdoc. I decided that the 
+point of failure for my planning as a postdoc boiled down to a lack of routine, 
+a deficiency that I have addressed with my current set of routines. For the last 
+week, I have managed to get myself into a routine that feels very nice for my 
+planning, and I can see this continuing indefinitely.
+
+I didn't simply let my planning system languish during my postdoc. I tried to 
+identify culprits and causes, and tried to work out solutions. One particular 
+issue that I meant to address time estimation. My planning system has the 
+capacity for me to estimate how long various tasks on my list will take and I 
+wrote a couple of simple scripts to help me understand how much time my current 
+set of plans would require given my current set of estimates. However, the 
+system had no built-in feedback regarding accuracy. The issue is that I have one 
+system for tracking my time and a different system for planning my time. 
+Naturally, this leads to the notion that I need to write a system in which my 
+time tracker couples to my planner. To make the system more appealing, I thought 
+it might be nice if the system had a GUI interface.
+
+The key elements that I came up with for my GUI time management system include
+
+=over
+
+=item 1
+
+a ridiculously simple interface for tracking when I change tasks, including 
+simple mechanisms for picking the next scheduled task, preferably triggered with 
+a OS-global key combination,
+
+=item 2
+
+long-term and short-term views of my plans akin to my present text-based 
+planning views,
+
+=item 3
+
+a graphical layout similar to Google Calendar for scheduling and prioritizing my 
+tasks along with integration with a calendar system of some sort, so that I can get
+immediate and visceral feedback for how much I want to get done with my day, and
+a sense for the quality of my time estimates, and
+
+=item 4
+
+a whole host of history and metadata for each task, knowing that I will always 
+have tasks at the end of the day that are undone and which I will push to a 
+later day. These pieces of information include the history of scheduled start 
+times (only one entry if I complete the task the first day it is scheduled), the 
+history of actual start times, history of estimated durations, calculated 
+history of accumulated estimated durations for tasks that see partial work, 
+child tasks if I decided to split a single task into multiple subtasks, 
+recurring tasks, and other things.
+
+=back
+
+Obviously the difficulties associated with the fourth point grow quickly. If I 
+try to use a database system to store all of this data, I need to figure out 
+everything that I want before I even start using it. Also, this data is of 
+little use if don't have a way to visualize it, and the more tightly I can build 
+that visualization, analaysis, and feedback system into the planning system, the 
+better I will get at learning how to schedule my time.
+
+These ideas are a year old but I still like my ideas for the basic layout and 
+design. I believe that storing all of this data in a relational database is too 
+inflexible, however, and forces a premature optimization of the metadata that I 
+want to store. It would be much better to use a system such as mongodb or even 
+Storable to store the hash objects for all the data, and encapsulating that data
+system by a set of modules.
+
+Once the data is easy to store and retrieve (built on regular Perl data 
+strucures with the complexity abstracted into a module), I can unify the 
+planning and time-tracking systems to use the same data system.
+
+Once the two planning systems use the sam data source, I can implement the 
+calendar-like scheduler with a simple script. The short- and long-term planning 
+would be a different set of scripts. Analysis again would be a set of scripts, 
+probably implemented using PDL::Graphics::Prima::Simple. If I decide that it's 
+worth it, I can build a large GUI application with means for extensions so that 
+I can slowly build-out analysis and feedback mechanisms initially with scripts.
+
+That said, I feel like the short- and long-term planning GUI scripts need to be 
+developed first. If I switch to a new data system but have only crude means for 
+interacting with it, I will continue to use the old systems. So first I need to 
+make GUI interfaces that act on the old data structures. Once those are in 
+place, I can create the data system and migrate the interface's data backend.
+
+Alright! All set! Now I just need to do it. :-)
+
+=cut

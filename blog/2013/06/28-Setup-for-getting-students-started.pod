@@ -1,0 +1,88 @@
+=pod
+
+I have recently mused about what has gone well and not so well for me as a 
+member in the Amaral Lab. In parallel, I have had some discussions with Jeff 
+Thalhammer (sp?), the writer of Pinto, about how I might be able to use Pinto 
+for managing changes in modules and making my work more reproducible. Now it's 
+time to try to synthesize these ideas into a coherent statement about how I 
+should set things up so my students can get up to speed quickly.
+
+The first step in working with a student will be the first contact regarding 
+research. This may be by a student who has had me as the instructor of one of 
+their classes, in which case they may approach me after class or send me an 
+email inquiring about working with me. Or, a physics student at Dickinson may 
+find me simply by reading faculty profiles. At any rate, the first thing to do
+is have an in-person meeting with them to guage their interest in my specific
+research.
+
+If they don't know much about my work, the first step is to have them do some 
+reading about the kind of research I do. I will direct them to my Dickinson 
+faculty web page for student research, which should have relevant blog posts for 
+getting students started. These articles should fall into a handful of 
+categories:
+
+=over
+
+=item What is synchronization?
+
+These articles should have basic explanations of the kind of synchronization 
+that I study, probably with links to (or embeded) YouTube videos to give them 
+sense for the physical phenomena of interest. Real physical systems that exhibit 
+synchronization should, of course, be discussed, and if I have Javascript or 
+one-click downloadable simulations, they should have links in these posts.
+
+=item What are the technical skills necessary for research?
+
+Obviously, for the theory they will need to know calculus and be familiar with 
+complex numbers. For the experiments, I will probably require that they have 
+taken the Electronics course. For programming, I should mention that familiarity 
+with programming is a plus, but I am willing to get students started if they 
+have never programmed before. (Links to perltuts.com would be appropriate.) 
+Ideally each of these will be explored in blog posts, and the most recent posts 
+should be linked.
+
+=item More specific articles about research
+
+Specific research projects should have occasional writeups and it is important 
+for these blog posts to be readily available for students. These will give 
+students more detailed and slightly more technical perspective on specific 
+projects that I do or have done, as opposed to the high-level overviews that 
+introduce the topic. A student might find these projects interesting, or they 
+may come up with new research ideas while reading these posts. Either way, 
+familiarity with these should give the student an idea for what I do, and what I 
+might be up for taking on.
+
+=item How does a student get started?
+
+When it comes time for a student to get started, I need some posts with clear 
+checklists for what to read and do to get going. I should also have posts that 
+outline the schedule and expectations for group meetings
+
+=item Reviews of the literature
+
+Writing reviews of the literature is something I plan to do for myself to keep 
+on top of the literature. New students will probably not find these reviews very 
+helpful as they will probably be too technical, but having the resource there 
+for some of my more advanced students would be a good idea.
+
+=back
+
+After the students are familiar with my research, we can discuss a specific 
+project they could work on. The trajectory for this should be clearly explained 
+in one of the blog posts, but it starts by setting up a schedule of weekly (or 
+more frequent) meetings so that we can work closely together on the initial 
+start up.
+
+Now, let's get to a more specific point: What are the best downloads to get my 
+students started up with my research? I have considered having a one-click 
+download that installs Perl on their machine, and make sure that the installer 
+is packaged for Mac, Windows, and Linux. However, I will also want my students 
+to have Padre (and therefore Wx), LyX, git, and a C compiler installed on their 
+machine. I have heard of puppet and chef, and maybe these are good tools for 
+managing this, but an alternative would be to build a VirtualBox image with all 
+of the software pre-installed and with an opening screen that asks them to pick 
+a username and password. Eventually I will need instructions for how to install 
+all of these, or have installers for these, but I can always help step students 
+through the process in person.
+
+=cut

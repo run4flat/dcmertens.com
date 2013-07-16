@@ -1,0 +1,54 @@
+=pod
+
+If you are an undergraduate considering working with me, you should start by 
+comparing your skills and interests with the skills and interests needed to be 
+successful in this line of research. Today, I will address the skill set needed 
+for good theoretical work in Kuramoto-based synchronization research. If you 
+have not already, you should read my L<basic overview of the kind of 
+synchronization that I 
+study|http:/blog/07/03-What-I-mean-by-synchronization.pod>.
+
+I want to define a few terms I will use to discuss skill level: "familiar", 
+"comfortable", and "proficient". Familiar means that you've encountered a 
+concept and have a basic idea for what it is, but you wouldn't be able to 
+perform any useful calculations without some help. For example, you know that an 
+integral is formally defined as a limit, but you may never have actually 
+performed the limit to calculate an integral. This makes you "familiar" with 
+this definition of an integral. Comfortable means that you've actually used an 
+idea once or twice and have a basic notion for how the idea works, even if you 
+cannot remember all of the detailed steps. If I asked you to perform a similar 
+calculation in our work toegether, you would consult your course notes or some 
+of my notes with a similar problem, and then adjust the technique to the problem 
+at hand. For most students who have taken a course in Calculus but have not yet 
+taken Calculus-based physics, derivatives and integrals usually fall into this 
+category: you will need to consult your course notes a few tiems to recall how 
+to perform the chain rule or integration by parts, for example. Proficient means 
+that you are perfectly comfortable with the technique and can perform it without 
+any guidance or notes. Any student of physics should be proficient in basic 
+algebra, for example.
+
+For theoretical work in synchronization, the starting point is the Kuramoto 
+model (WHICH I WILL EXPLAIN ELSEWHERE). Many of the basic components of the 
+Kuramoto model lie at the edge of (but thankfully not beyond) an undergraduate 
+physics major's normal training in mathematics. First, you must be B<proficient> 
+with ordinary differential equations and B<comfortable> with partial 
+differential equations. The model itself is expressed using complex numbers, so 
+you must be B<comfortable> with algebraic manipulations of complex numbers, but 
+B<familiarity> with complex analysis is I<not> necessary. A great deal of my 
+current work on finite-sized populations requires Taylor expansions and other 
+approximations, so you must be B<comfortable> with these as well.
+
+In terms of course work, you will probably have the skills necessary for this 
+research if you have taken at least one upper-level physics course. Although 
+this is fundamentally a problem in statistical physics, the normal techniques of 
+statistical mechanics (such as calculating the partition function) are not 
+actually very helpful. That said, you may have a hard time understanding why 
+this kind of stuff is cool if you've not taken statistical mechaics. At any 
+rate, if you have taken at least one upper-level course, you will probably be in 
+good shape to get started.
+
+Even if you do not have the skills listed above to get started, feel free to get 
+a hold of me if you are interested in this work. The earlier we start discussing 
+your interests, the sooner we can get you ready to do real research!
+
+=cut

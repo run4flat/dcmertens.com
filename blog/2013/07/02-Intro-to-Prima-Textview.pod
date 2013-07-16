@@ -1,0 +1,265 @@
+use strict;
+use warnings;
+use Plod;
+
+=pod
+
+This week's Technical Tuesday entry is about Prima::Textview, a widget in the 
+Prima GUI toolkit that is woefully underdocumented at the moment. The code
+snippets in this entry constitute a complete working script. If you copy
+each section and put it all together in a text file, you would have a working
+script that renders subscripts and superscripts.
+
+I came to appreciate the full power of Prima::Textview only rather recently.
+Although I encountered the widget's documentation a long time ago, it is
+far from complete, and the widget itself has a number of rough edges. I
+spent some time a month ago preparing revised and expanded documentation.
+Hopefully by the time you are reading this, I will have finished it and it
+will be distributed with the latest version of Prima.
+
+For today's entry, I want to explore subscripts and superscripts using LaTeX 
+notation. I'll begin by creating the main window and inserting a filling 
+Textview object with the text I intend to typeset:
+
+=for code
+
+ use strict;
+ use warnings;
+ use Prima qw(TextView Application);
+ 
+ my $window = Prima::MainWindow-> create(
+     name => 'TextView example',
+     width => 300, height => 300,
+ );
+ 
+ my $textview = $window->insert(TextView =>
+     text     => 'some text^{super}_{sub}',
+     pack     => { expand => 1, fill => 'both' },
+ );
+
+I will not perform any parsing of the LaTeX: what I write here is code
+specifically written to typeset this exact text. A more complete LaTeX
+parser and renderer goes well beyond the scope of today's entry.
+
+=head2 Create the blocks
+
+The next step is to build the blocks. Although I could build a single block with
+many block-drawing operations, I am going to try building multiple blocks so that
+the highlighting of superscripts and subscripts is correct.
+
+=for code
+
+ my $base_block = tb::block_create();
+ my $sup_block = tb::block_create();
+ my $sub_block = tb::block_create();
+
+=head2 Set the colors
+
+The default value for the background color is C<0>, which is black. Given
+that the foreground color is black, too, we won't be able to see the text.
+This is an unfortunate default, and we should change it to the parent
+widget's background color. The foreground color of C<0> (i.e. black) is
+usually the parent widget's foreground color, but it's not explicit, so
+we'll set that, too, even though it's not strictly necessary for this
+example:
+
+=for code
+
+ for my $block ($base_block, $sup_block, $sub_block) {
+     $block->[tb::BLK_BACKCOLOR] = cl::Back;
+     $block->[tb::BLK_COLOR] = cl::Fore;
+ };
+
+=head2 Set the widths, heights, and y-apertures
+
+In the calculations that follow, I will need to get the pixel lengths of
+substrings using different font sizes. In order to do that, I need to put
+the Textview widget in the paint_info mode. This will allow the widget to
+"change" its state for calculations and forget them when it's time to draw:
+
+=for code
+
+ $textview->begin_paint_info;
+
+One of the more tedious steps in building blocks is calculating their width,
+height, and y-aperture. The base block's height and width follow the
+standard if somewhat long-winded set of calculations:
+
+=for code
+
+ my $base_font_height_px = $textview->font->height;
+ my $base_width_px = $textview->get_text_width('some text');
+ $base_block->[tb::BLK_WIDTH] = $base_width_px;
+ $base_block->[tb::BLK_HEIGHT] = $base_font_height_px;
+ $base_block->[tb::BLK_FONT_SIZE]
+     = $base_font_height_px + tb::F_HEIGHT;
+
+For positioning calculations that come later, I will need to have the
+current font's descent and internal leading, so I will compute them here.
+Also, the y-aperture should be set to the descent:
+
+=for code
+
+ my $base_descent_px
+     = $base_block->[tb::BLK_APERTURE_Y]
+     = $textview->font->descent;
+ my $base_internal_leading_px
+     = $textview->font->externalLeading
+       + $textview->font->internalLeading;
+
+To calculate the subscript and superscript font properties, I need to change
+the font size. I compute a suitable font size using a heuristic that I
+encountered years ago: divide by the square-root of 2. I use C<sprintf> to
+get proper rounding.
+
+=for code
+
+ my $sub_font_height_px
+     = sprintf("%d", $base_font_height_px / sqrt(2));
+ $textview->font->height($sub_font_height_px);
+
+Having set the font size, the width, height, and y-aperture of the subscript
+and superscript blocks follows the standard incantation:
+
+=for code
+
+ # Width
+ my $sup_width_px
+     = $sup_block->[tb::BLK_WIDTH]
+     = $textview->get_text_width('super');
+ my $sub_width_px
+     = $sub_block->[tb::BLK_WIDTH]
+     = $textview->get_text_width('sub');
+ 
+ # Height
+ $sup_block->[tb::BLK_HEIGHT]
+     = $sub_block->[tb::BLK_HEIGHT]
+     = $sub_font_height_px;
+ 
+ # Font height
+ $sup_block->[tb::BLK_FONT_SIZE]
+     = $sub_block->[tb::BLK_FONT_SIZE]
+     = $sub_font_height_px + tb::F_HEIGHT;
+ 
+ # Y-aperture
+ my $sub_descent_px
+     = $sup_block->[tb::BLK_APERTURE_Y]
+     = $sub_block->[tb::BLK_APERTURE_Y]
+     = $textview->font->descent;
+
+The subscript's internal leading uses the exact same code snippet. Remember,
+compared to the baseline calculation, we are working with a different font
+state:
+
+=for code
+
+ my $sub_internal_leading_px
+     = $textview->font->externalLeading
+       + $textview->font->internalLeading;
+
+
+=head2 Add the text rendering operation
+
+The blocks need to be told that they are drawing text, which requires
+knowledge of the text they will claim from the underlying string and the
+width of that text:
+
+=for code
+
+ #       block      text op  char offset  N chars   pixel width
+ push @$base_block, tb::text(    0,          9,   $base_width_px);
+ push @$sup_block,  tb::text(    11,         5,   $sup_width_px );
+ push @$sub_block,  tb::text(    19,         3,   $sub_width_px );
+
+=head2 Set X and Y offsets
+
+The blocks have widths and heights and are set to render text, but at the
+moment they are set to be rendered from (X, Y) = (0, 0), which means they
+will overlap. We need to push the superscript and subscript blocks to the
+right:
+
+=for code
+
+ $sub_block->[tb::BLK_X] = $base_width_px;
+ $sup_block->[tb::BLK_X] = $base_width_px;
+
+Now we turn our attention to the vertical offsets, which is a bit tricky.
+The text that has the highest vertical rendering is the superscript, so
+we can keep its Y-offset at zero. The subscript needs to be positioned so
+that it is completely below the superscript, so it will have a Y-offset
+equal to the height of the superscript.
+
+The tricky part is the base block. We want to render the base block so that
+two distances are equal. The first distance is the distance from the base
+block's internal leading line to the superscripts internal leading line.
+The second distance is the distance from the base block's baseline to the
+subscript's baseline. With a little algebra, we arrive at this:
+
+=for code
+
+ $sub_block->[tb::BLK_Y] = $sub_font_height_px;
+ $base_block-> [tb::BLK_Y]
+     = $sub_font_height_px
+       + ($base_descent_px - $sub_descent_px
+           - $base_font_height_px
+           + $sub_internal_leading_px
+           - $base_internal_leading_px
+         ) / 2;
+
+That last expression could possibly be simplified noting that the sub and
+base distances are related by a factor of a square root of 2, but then we
+get into rounding issues that are better avoided using this calculation.
+
+=head2 Finalize the block collection
+
+Now that the blocks are fully prepared, we can set the Textview's blocks
+and calculate the block ymap. The ymap method chunks the blocks into
+1000-pixel pages for more efficient rendering of large texts:
+
+=for code
+
+ # Set the markup block(s) and recalculate the ymap
+ $textview->{blocks} = [$base_block, $sup_block, $sub_block];
+ $textview->recalc_ymap;
+
+Now that I'm all done calculating the font sizes, I can end the paint_info
+mode so that the widget forgets the font changes. This could have happened
+a few lines earlier, but I think it's best to put this at the end of the
+calculations so that if anything ever gets added, we don't have to worry
+about shuffling the paint-info closure.
+
+=for code
+
+ $textview->end_paint_info;
+
+I finalize the textview by setting the pane size. This step is needed so that
+the widget exposes the correct horizontal and vertical scrolling and so that
+the widget properly calculates per-character text selection:
+
+=for code
+
+ my $full_width_px = $base_width_px + $sup_width_px;
+ my $full_height_px = 2 * $sub_font_height_px;
+ $textview->paneSize($full_width_px, $full_height_px);
+
+=head2 Run it!
+
+And now, finally, we can run it!
+
+=for code
+
+ run Prima;
+
+When you run this simple program, you should get a rendering like this:
+
+=for html <img src="02-Prima-latex.png" />
+
+=for podview <img src="02-Prima-latex.png" />
+
+A particularly interesting feature of this widget is that even though only
+pieces of the text render (i.e. there are no curly braces), if you copy the
+full text to your clipboard, you get them! This is because copying from a
+Prima::Textview widget ultimately performs a C<substr> on the Textview's
+::text property.
+
+=cut

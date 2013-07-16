@@ -1,0 +1,41 @@
+=pod
+
+Today's writings continue on the theme from the last two days. Two days ago I 
+discussed L<the basic skills a student would need to work with me on the theory 
+of synchronization|http:/blog/07/10-Skills-needed-for-Kuramoto-theory.pod> and 
+yesterday I went over L<what a student should expect if they want to numerically 
+study synchronization with 
+me|http:/blog/07/10-Skills-needed-for-Kuramoto-theory.pod>. Any student 
+interested in experimental studies of synchronization should certainly speak 
+with Professor English. He is already doing experimental work on synchronization 
+and I do not expect that I will be able to set up any experiments at Dickinson 
+in my first year. However, I have done experiments in the past and I hope to 
+work on some of my own in the future, so here I flesh out what I would need from 
+students interested in studying synchronization experimentally, when it does 
+eventually get underway.
+
+The basic prerequisites for experimental work are not fixed. But as a starting 
+point, I would like for you be familiar with concepts from nonlinear dynamics. 
+Also, an upper-level course in physics should give us a common vocabulary to 
+discuss what we see in the lab. Although these are not hard requirements for 
+laboratory work (I'm sure a student could get started with lab work in their 
+first semester at Dickinson if they really wanted to), they would be really 
+helpful.
+
+You should also have, or plan to develop, subject matter expertise. My previous 
+experimental work on synchronization involved lots of small cell-phone 
+vibrators. If you wanted to work with these sorts of oscillators (i.e. 
+mechanical ones), you would need a firm grasp of Newtonian mechanics. If you 
+want to study electronic oscillators, you would need to be comfortable with 
+electronic components and building circuits. Biological oscillators could be 
+very interesting to study, but I do not know much biology, so you would have to 
+know the underlying biology or find a professor with that expertise.
+
+As physicists, we aim to understand and explain real, physical phenomena. The 
+most elegant theory is of no use if it does not provide insight into a physical 
+process. Your role as an experimentalist is to collect data from a real system 
+that confirms or refutes a theoretical or numerical prediction. Although some 
+aspects of experimental work can be tedious or boring, it produces the most 
+important currency of physics: real, physical data.
+
+=cut

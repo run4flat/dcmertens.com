@@ -1,0 +1,54 @@
+=pod
+
+Well, it's been about two weeks of blogging, and so far it's gone pretty well. 
+The most important part is that it's actually getting done, which was not 
+guaranteed when I started. Of course, it helps a lot that I've put a very high 
+priority on writing, but that's no guarantee, and if I pick topics that take a 
+lot of time to unpack, it'll eat into my morning, or even my afternoon. I still 
+have a few things to learn about maintaining a blog.
+
+Let me start with the most important factor for my success: blogging in the 
+morning. Putting this near the start of my day gives it a very high priority and
+ensures that it doesn't get perpetually put-off. This means that by the time I
+need it, I will have already generated many small pieces of content that I can
+string together into the main material for my web pages.
+
+However, this does not always work, for a few reasons. Sometimes I choose to 
+write about topics that are simply too big to discuss in a single blog post, but 
+I do it anyway. This is most likely to happen with technical posts, which take a 
+long time to write because they require so much extra research. By working on 
+them longer than I really meant to do, I end up building up a notion that 
+blogging is more detrimental than helpful. This perspective is not sustainable. 
+Another reason that morning blogging does not always work is that I pick topics 
+that I cannot write about in the morning, most notably sermons on Sundays. I 
+cannot write until I have gone to church, but yesterday I didn't take the time 
+to write after getting back from church. (The post dated yesterday was written 
+earlier today.) Finally, blogging first-thing takes a lot of time in the 
+morning, and if my wife and I want to get an early start to the day, I either 
+have to get up early, postpone our own getting started, or forego morning 
+writing.
+
+Another aspect of regular blogging that is very good is that I am slowly 
+building up the content that of my website(s). This is important because I 
+cannot imagine I would have the time or patience to write a large collection of 
+web pages, or later perform large-scale updates. By focusing on slow, continual 
+content updates via blog posts, I have a system that is sustainable precisely 
+because it comes in bite-sized pieces.
+
+Two skills will become important as I move forward. First, I must learn to stop 
+writing when it is clear that a topic is going to take too much time to write in 
+one go. This is a discipline, and it can be frustrating. I hate interupting my 
+stream of thinking just because I ran out of time. However, I sometimes end up 
+with posts that are far larger in scope than I had anticipated, a sort of 
+feature creep manifested in writing. This calls for another important 
+discipline: outlining what I want to say, and then sticking with my outline. 
+These disciplines compliment each other and if I master them, I think I will be 
+much more likely to keep this up for a long time to come.
+
+Overall, it's been a success, and I hope to continue with it. Hopefully I can 
+make the writing for small topics short and succinct, and break down the writing 
+for huge topics into smaller, more manageable chunks. Also, I hope that I can 
+structure my morning routines so as to start my day with regular blogging. Only 
+time will tell, but I am optimistic.
+
+=cut

@@ -1,0 +1,35 @@
+=pod
+
+I have high hopes that I will have the opportunity to work on my synchronization 
+research with students while at Dickinson. To help students who are considering 
+doing research with me, I wrote yesterday about L<the basic skills a student 
+would need to work with me on the theory of 
+synchronization|http:/blog/07/10-Skills-needed-for-Kuramoto-theory.pod>. Today I 
+will discuss the skills I would need of a student who wants to study 
+synchronization with me numerically.
+
+Numerical computing is necessary for the data analysis of any project. When I 
+speak about numerical computing, I refer to elevating our numerics to the role 
+of primary research. We would do this, essentially, when writing simulations.
+
+I have an extremely low technical bar for new students when it comes to 
+numerical work: you need to be interested in learning how to program. This low 
+technical bar is accompanied by another requirement: you need to have lots of 
+time in your schedule to learn to program. Even if you have experience 
+programming, you are probably not familiar with the language I use for my 
+research: L<Perl|http://www.perl.org/>. I find that Perl is pretty easy to pick 
+up, especially if you have a local expert (which would be me), but it still 
+takes time. If you are proficient in another language, you will need to put some 
+time into learning the ins and outs of using Perl for research.
+
+If you need to learn to program, you should expect to spend roughly 10 hours per 
+week for the first two semesters we work together, or you should talk with me 
+about working together over the summer. If you are proficient in another 
+language, you should expect to spend 10 hours per week for the first semester to 
+learn Perl and the specific project management workflow that I use in my 
+research.
+
+If you are interested in using simulations to study physics and physical
+problems, we should talk.
+
+=cut

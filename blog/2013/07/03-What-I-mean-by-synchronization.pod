@@ -1,0 +1,90 @@
+=pod
+
+My primary area of research is synchronization. I have studied this phenomenon 
+theoretically, computationally, and experimentally. The term synchronization
+could refer to many things, however, so I want to be clear: I am interested in
+spontaneous collective synchronization.
+
+One of the best examples of the kind of behavior that I find interesting is 
+L<this video on youtube, illustrating a set of metronomes converging to 
+synchronous beating|http://www.youtube.com/watch?v=W1TMZASCR-I>. You can also 
+watch L<an even larger example|http://www.youtube.com/watch?v=kqFc4wriBvE>.
+
+=head2 What it's not
+
+I want to begin by pointing out a number of phenomena that are often conflated 
+with the behavior that I study. These phenomena may be interesting, but differ 
+from spontaneous collective synchronization in some important ways.
+
+First up, we have mechanical resonance. A well known and dramatic example of 
+mechanical resonance is the collapse of the Tacoma Narrows Bridge, which is 
+L<wonderfully explained 
+here|http://on.aol.com/video/the-original-tacoma-narrows-bridge-collapse-of-1940-119995718>. 
+You will notice in that clip that the bridge sways from the day it opened, but 
+it took months before the bridge encountered winds with enough sustained energy 
+to trigger the collapse. For the bridge, the gale-force winds act as a source of 
+energy that interacts with the natural oscillation frequency of the bridge and 
+leads to its ultimate demise. In contrast to collective synchronization, there 
+is really only one oscillator in the Tacoma Narrows collapse, albeit a rather 
+complicated one. These sorts of phenomena can be modeled using coupled harmonic 
+oscillators or models of continuous media. These models can accurately predict 
+the situations that could lead to resonant build-up of energy. This is a cool 
+phenomenon, but it is not spontaneous collective synchronization.
+
+Second, it is easy to find lots of systems that are synchronized, but not 
+spontaneously. Modern operating systems have options to L<synchronize your 
+clock's computer|http://www.nist.gov/pml/div688/grp40/its.cfm> to the L<atomic 
+clocks at the National Institute for Science and 
+Technology|http://www.time.gov/>. Synchronized timing is very important for a 
+wide range of computing applications, but the synchronization is not 
+spontaneous: it is carefully calibrated and controlled.
+
+Having pointed out a couple of ideas that are similar to what I study, but not 
+quite the same, let's turn to the key features of collective spontaneous 
+synchronization.
+
+=head2 Key features of collective spontaneous synchronization
+
+Listen carefully to the L<first metronome 
+example|http://www.youtube.com/watch?v=W1TMZASCR-I>, just after all of the 
+metronomes have begun clicking. At about nine seconds into the video, there is a 
+repeating pattern of two clicks and a beat of silence. By fifteen seconds, one 
+of the metronomes has gotten ahead of or behind the others and filled the beat 
+of silence, leading to a steady stream of clicks. By 24 seconds, just as the 
+metronomes are being placed on the cans, the beat pattern has changed once 
+again.
+
+We can draw two firm conclusions from these observations: one is that the 
+metronomes are set to different metronome markings (typically abbreviated as mm 
+in sheet music), and the other is that the metronomes are not converging to the 
+same frequency. The situation changes almost immediately when the metronomes are 
+placed on the soda cans, and they quickly synchronize. They over-shoot their 
+synchronization slightly and it takes a little longer for them to completely 
+settle, but by about one minute into the video, they are fully synchronized and 
+remain that way until the end of the video.
+
+Unlike the Tacoma Narrows Bridge, each oscillator has its own internal source of 
+energy. These are active, not passive, oscillators. Unlike computer clock 
+synchronization, there is no controlled mechanism of synchronization, and there 
+is no single predominant oscillator.
+
+When the metronomes are placed on the soda cans, each of them contributes to the 
+initially incoherent swaying of the board on the cans. Each metronome's pendulum 
+experiences a continuous stream of tiny pushes and pulls from the other 
+metronomes, transmitted through the wooden base. These continuous, tiny 
+interactions lead to the emergence of a common frequency of synchronization. Once
+the metronomes have found their collective frequency and transient behavior has
+died off, the metronomes will remain synchronized until they run out of energy.
+
+Continuous, regular, robust timing emerges from a collection of simple yet 
+distinct oscillators with simple interactions. This sort of mechanical example 
+is nothing more than an illustration since we can manufacture oscillators with 
+highly tuned frequencies. The more important application of this phenomenon is 
+in living systems, most notably the heart's pacemaker cells. Pacemaker cells 
+invariably have a variation in their natural frequency, but by responding to the 
+beats from other cells, the pacemake cells can robustly synchronize and the 
+heart can beat with carefully timed, robust, synchronized motion. Unlike the 
+theory for mechanical resonance, the theory of synchronization is still under 
+current development, making it an important and fresh field for research.
+
+=cut

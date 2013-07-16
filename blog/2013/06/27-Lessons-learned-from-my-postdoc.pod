@@ -1,0 +1,54 @@
+=pod
+
+Yesterday I discussed some of the important positive aspects of my postdoc that 
+I hope to take with me. Today I want to discuss some of the hard lessons learned 
+while working in the Amaral Lab.
+
+I like algorithms; I don't like cutting-edge time series analysis. It took me a 
+long time to realize this, and it only came to me after having a hard meeting 
+with my boss. Why had I not made much progress in our research? The reason is 
+simple: I only cared about the heart of the algorithm. Fine tuning a time-series 
+algorithm simply does not interest me and takes great effort for me to make any 
+progress. Unfortunately, when I had this realization, I thought that we were 
+close to finishing the project, so I didn't ask to rotate off the project. That 
+was a mistake: the scope of the project has morphed and it has cotinued to 
+progress only very slowly. I have probably missed opportunities to make positive 
+contributions elsewhere in the lab. That is another thing that I have learned in 
+this process: when I realize that I am not interested in something, I need to 
+say something about it, discuss it with my colleagues, and plan for my exit.
+
+Because my interests and the research goals did not align, Luis and I did not 
+interact well. The unfortunate pattern that developed was that Luis would have 
+an idea for the analysis and would ask me to implement the idea. I typically 
+morphed his idea into something that was more algorithmically interesting to me 
+and implemented that instead. As my mind took Luis's idea and algorithmically 
+enhanced it, I usually forgot all but the kernel of Luis's idea. As a result, 
+Luis became more precise in his specifications and more annoyed when I 
+implemented increasingly different ideas. Luis felt like I was being passive 
+aggressive (which was true to some extent), and I felt that Luis didn't care 
+about my contributions to the analysis. When Luis eventually suggested that I 
+move off of this project, it seemed like the pinnacle of ignoring my 
+contributions to the work. Had I realized that I like algorithms and not time 
+series analysis, I would have taken Luis up on his suggestion.
+
+Over discussions with my dad, I realized that I work best when my "boss" is 
+either a working manager or when my job expectations are very clear cut. At 
+Illinois, my advisor was a working manager: Richard was directly involved with 
+the calculations for our papers. This is also true of my teaching assignments. 
+The lead professors also taught lab or discussion sections. My teaching work 
+also had clear expectations and the path to completion of those expectataions 
+was obvious. For all of these reasons, and because I enjoy teaching, I expect
+that things will go much better for me at Dickinson.
+
+Finally, I have learned that I need to manage my time, and I have learned a few 
+key elements that tend to help my efforts. This has been the topic of other blog 
+entries and I won't go into it here.
+
+It is unfortunate that my time at the Amaral Lab hit the scientific snag that it 
+hit. The most important thing for me to do is learn from these lessons and move 
+forward. I will focus on science that I enjoy: synchronization, and possibly 
+networks. I will try to be careful in how I manage my students (when I 
+eventually get students) and I will give careful analysis to what is going on 
+when either I or my colleagues seem unable to make progress on a problem.
+
+=cut

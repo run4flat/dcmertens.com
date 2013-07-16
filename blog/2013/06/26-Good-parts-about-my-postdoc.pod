@@ -40,4 +40,12 @@ fuss. Whether this comes in the form of a one-click installer for my group's
 software, or a VirtualBox image with all of the software preloaded, the point is 
 that the software setup should be as easy as possible.
 
+Of course, I developed some important knowledge and skills. I learned about 
+dynamic programming as a general technique for calculating optimal solutions to 
+many different problems. As the blog manager, I wrestled with the notions of 
+what a scientist should write about and why. I spent many months working on GUI 
+applications for data analysis and honed my ideas for what constitutes a useful 
+GUI analysis app. These are valuable skills and ideas that I will take with me 
+whereever I go.
+
 =cut

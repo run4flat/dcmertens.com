@@ -1,0 +1,45 @@
+=pod
+
+Blogging has gone pretty well this week. In spite of being under something of a 
+time crunch for a couple of my mornings, I have done a good job getting them
+written. I have found that writing about various topics every morning has been
+quite a bit of fun, and I expect I'll be able to keep this up without much
+trouble.
+
+One of the important aspects of this project is that I have picked my blog 
+topics ahead of time. Given that I that I picked a lot of these topics more than 
+a week ago, I had forgotten precisely what I would write about by the time the 
+topic came up. The pre-determined but forgotten topics has made them feel 
+spontaneous without requiring that I come up with an original kernel every 
+morning. I think that has helped keep the writing focused yet fun.
+
+When I decided to begin blogging, I was concerned that I may have trouble coming 
+up with topics to write about. I decided that I needed a regular weekly set of 
+topics. I almost immediately discovered that I could come up with a whole range 
+of semi-random one-off or two-day blog ideas and I settled on only two weekly 
+topics: Technical Tuesdays and Science & Christianity Sundays. And after a week 
+of blogging, I still think that gives me enough structure to build a blogging 
+habit.
+
+The reason that I don't want to add much more structure to the week is that I 
+expect to come up with topics that will require multiple days to unpack, and I 
+want to have the consecutive days in the schedule to do that. If I add more 
+topics, I would want them to be a bit less rigid than the Sunday and Tuesday 
+topics, which I put specifically on Sunday and Tuesday due to significance and 
+alliteration, respectively. These would serve as recurring topics to help give 
+me ideas if I cannot come up with anything to write about.
+
+Ideas come to mind for this less rigid set of topics. Fun Fridays (yeah, I'm a 
+sucker for alliteration), could be a topic about life in Carlisle and other 
+personal goings-on that make life enjoyable. I would like to regularly blog 
+about journal articles that I read (Journal Thursdays?). Although I expect that 
+I'll blog about my research and my teaching, I think it is far better to plan 
+those out topic-by-topic. The same goes with my Perl work and musings, 
+especially since I'll write plenty about those ideas on Technical Tuesdays.
+
+In all I think that my blogging has gone well and I think that I have enough 
+structure to keep it in good shape for quite some time. If I do indeed keep it 
+up, I look forward to updating the website to display this recurring content,
+and slowly fleshing out the website content with pertinent articles.
+
+=cut
