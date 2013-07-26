@@ -1,12 +1,15 @@
 =pod
 
-This was supposed to be my blog entry from I<Last> Sunday, not this Sunday.
-Furthermore, I was unable to complete this or any other blog entry all week!
-But, hopefully finishing this will get me back into regular blogging again.
+This blog entry was easy to start but has proven surprisingly difficult to 
+finish. It's a good parable, and there's always more to say! It was slated to 
+land on Sunday, July 14, but it didn't, and its looming presence kept me from 
+finishinig any other entry that whole week. I worked on it more on July 21 but 
+didn't quite finish it, and I wisely put it aside so I could write other 
+entries. On July 25, I back-posted this for July 21.
 
-L<Last Sunday's Gospel|http://lectionary.library.vanderbilt.edu/texts.php?id=270> was 
-about the Good Samaritan. For the fun of it, let's take two passes at this
-story.
+L<The Gospel for Sunday, July 
+14|http://lectionary.library.vanderbilt.edu/texts.php?id=270> was about the Good 
+Samaritan. For the fun of it, let's take two passes at this story.
 
 The children's sermon on this topic goes like this: a man who is on the road 
 gets robbed and beaten up. A few folks pass him by, but someone eventually helps 
@@ -15,6 +18,8 @@ story is pretty simple: if you see somebody who needs help, offer to help them
 beyond their expectations. If your interpretation goes no further than this, you 
 will still have a good interpretation. The genius of Jesus' parables is that 
 even the simplest level of interpretation is good and instructive.
+
+=head2 The Full Story
 
 But Jesus' parables always have more depth. Let's look more closely. Here is the 
 full text, taken from the link posted at the start of this post:
@@ -65,11 +70,14 @@ too much detail, the Jewish law had a number of strict ordinances for what
 individuals could or could not do, and what sorts of rituals they had to perform 
 if they accidentally or intentially did something forbidden. It is not uncommon, 
 but incorrect, to think that Jesus' establishment of Christianity broke the old 
-Jewish law. Although there is a kernel of truth in it, Jesus nonetheless frames 
-the whole story and his entire ministry in terms of the Jewish Law and Jewish 
-cultural customs. Indeed, Jesus' main point is that the legalistic way of living 
-that had been perfected by some in the classical Jewish culture was morally 
-flawed.
+Jewish law. The Church ultimately broke away from Judaism, but that break wasn't 
+strictly necessary as Jesus frames his entire ministry in terms of the Jewish 
+Law and Jewish cultural customs. Indeed, Jesus' main point is that the 
+legalistic way of living that had been perfected by some in the classical Jewish 
+culture was morally flawed. He was not actually finding fault with the faith, 
+just the practice.
+
+=head2 History
 
 Let's cover a little bit of history, by which I mean, a bit of Genesis and 
 Exodus. If you've ever seen L<Joseph and the Amazing Technicolor Dream 
@@ -81,31 +89,41 @@ tells the story of their departure from Egypt and their formation of a new state
 of Israel. (Israel was another name for Jacob, the father of the twelve sons.) 
 Each of the twelve sons' descendents were formed into a tribe named for the son. 
 Joseph had a tribe, for example. Judah was the eldest, and his descendents were 
-"from the tribe of Juday". Benjamin was the youngest. One of the twelve brothers 
+"from the tribe of Judah". Benjamin was the youngest. One of the twelve brothers 
 was Levi, and his descendents were called "Levites". In particular, Moses was a 
-Levite and as a result all priests of Israel came from the line of the Levites.
+Levite and because of Moses' instrumental role in the establishment of Israel 
+and the religious statutes that would define the culture, God decreed that all 
+priests of Israel would come from the line of the Levites.
 
-Now fast forward a few hundred years. Internal factions have caused the tribe of 
-Judah to split into its own state apart from Israel. Israel is the first to 
-fall, and when they do, the conquering power (the Assyrians, I think) send in a 
-whole bunch of foreigners into the land. The culture and religion of what was 
-once Israel become entwined with other cultures and religions from these 
-foreigners. This land comes to be called Samaria, after the capital, and its 
-inhabitants are known as Samaritans. Jews hated Samritans because they claimed 
-to worship the same God, but clearly their practices pulled from other 
-traditions. These people were seen literally, culturally, and religiously as
-half-breeds by the citizens of Judaeah. Fast forward another few hundred years
-and we are in Jesus' time, and the notions haven't changed.
+Now fast forward a few hundred years. Internal factions caused the tribes of 
+Judah and Benjamin to split into their own state, called Judah, apart from the 
+other tribes, which kept the name Israel. Jerusalem and the Jewish Temple was in 
+Judah, so the king of Israel felt compelled to modify the religion of Israel to 
+allow for new temple sites. In particular, he built a temple in the nation's 
+capital, Samaria. In the process he also incorporated Baal worship. The citizens
+of Judah are repulsed by this mixing of religions and start to see Samaritans,
+as they were called, as impure.
+
+Both nations are eventually conquered by larger nation-states and their elites 
+are exiled. A small, devoted group of exiles are eventually allowed to return to 
+Jerusalem. They believe strongly that God let their predecessors fall because of 
+their religious impurity, so purity and strict adherence to the Law become their 
+focus. Their opinion of Samaria as the land of impurity, where the true religion 
+is mixed with false elements such as Baal worship, makes them repulsed by 
+Samaritans more than ever. As a results, Jews of Jesus' day saw Samaritans as 
+cultural and religious half-breeds.
 
 Having covered that history, you can appreciate the ordering that Jesus uses to 
 introduce his characters. The priest is the holiest of the three. The Levite is 
 a "cousin" of the priest; you might think of him as a man whose brother is a 
 preacher. Even if he's not a preacher himself, he's probably had late-night 
 conversations about ethical and moral behavior. Finally, the Samaritan is the 
-morally ugly one. Jesus audience would have expected that even if this man had 
+morally ugly one. Jesus' audience would have expected that even if this man had 
 given careful thought to moral and ethical behavior, he would have started with 
 a flawed religion and culture. Jesus introduces individuals of stereotypically
 decreasing moral training and insight.
+
+=head2 The Key Conflict of the Parable
 
 But why, then, do the priest and Levite, who should have had compassion, pass 
 this poor robbed man? Rather than help the man, I<both> of them pass "one the 
@@ -119,16 +137,16 @@ as they are offensive.
 
 The reason the priest and Levite avoided this half-dead man was because they 
 were pious I<to> the Jewish Law. In a number of circumstances, this sort of 
-piety translateed into morally and ethically sound behavior. In a number of 
-other circumstances, it did not. As I said, the Law had all sorts of 
-requirements, and obligations if you missed a requirement. The troubled history 
-of the state of Israel led Jews in Jesus' day to strive above all else to avoid 
-breaking the Law, and all sorts of things became taboo to Jews 2000 years ago. 
-One such thing was contact with human blood. Both the uber-pious priest and the 
-pious Levite see this robbed, beaten man and rather than see a man who needs 
-help, they think "unclean". Rather than allow compassion to fill their hearts 
-with pity, they harden their hearts and cross to the other side of the road to 
-protect their ritual purity.
+piety translated into morally and ethically sound behavior. In a number of other 
+circumstances, as Jesus is keen to point out, it did not. As I said, the Law had 
+all sorts of requirements, and obligations if you missed a requirement. The 
+troubled history of the state of Israel led Jews in Jesus' day to strive above 
+all else to avoid breaking the Law, and all sorts of things became taboo to Jews 
+2000 years ago. One such thing was contact with human blood. Both the uber-pious 
+priest and the pious Levite see this robbed, beaten man and rather than see a 
+man who needs help, they think "unclean". Rather than allow compassion to fill 
+their hearts with pity, they harden their hearts and cross to the other side of 
+the road to protect their ritual purity.
 
 Jesus' hearers of this story would have been as conflicted about the setup as 
 the first two characters that he introduces. Jesus has picked one of the 
@@ -138,17 +156,34 @@ common thought experiment in Jesus' day? "You're on the road and see a man who
 has been robbed and beaten nearly to death. WHAT DO YOU DO?" Or, maybe Jesus 
 came up with the story all on his own. Either way, his hearers would have 
 understood completely that this man needs help and surely God wants them to 
-offer their help, yet God also told them to avoid contact with human blood.
-The obvious, morally correct response is forbidden. What do they do?
+offer their help, yet God also told them to avoid contact with human blood. The 
+obvious, morally correct response is forbidden by their religous practice. What 
+do they do?
+
+=head2 Why Jesus chose the Samaritan
 
 At this point, Jesus could have simply stated that they priest or Levite should 
 have behaved differently. With dramatic flare, he instead illustrates the 
 correct response with the most dispicable character ever: a Samaritan. The 
 popular, 20th-century interpretation of the word "Samaritan" is a do-gooder, but 
-my breif bit of history should make clear that Jews had a very low opinion of
-Samaritans. The Samaritan not only takes care of this man's immediate wounds but
-even pays for the man's recovery expenses.
+as I have already mentioined, Jews had a very low opinion of Samaritans. The 
+Samaritan not only takes care of this man's immediate wounds but even pays for 
+the man's recovery expenses.
 
+I believe that Jesus uses this story to rail against the focus on ritual purity. 
+Jesus' point throughout his ministry is that ritual purity is not what God is 
+calling his followers to do. Jesus' main message is that God wants his people to 
+protect the weak and serve those who are underserved. Jesus point in this story 
+is that anybody would know what to do in this case if they simply followed their 
+heart. The first two, the pious ones, were to encumbered by their ritual purity 
+to realize that they could and should help this man. The third man was able to 
+help the victim precisely because his judment was not clouded.
 
+Lessons from this story can apply to anyone, both the religious and the 
+non-religious. Religious folks need to be careful not to allow their religious 
+practice to cloud their judgment. Non-religious folks need to be careful to not 
+allow their ethical practices to cloud their judgment. Everyone should 
+critically examine their practices to be sure that they reflect, and not 
+encumber, important principles.
 
 =cut

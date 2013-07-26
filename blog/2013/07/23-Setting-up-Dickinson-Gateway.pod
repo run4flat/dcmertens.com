@@ -1,0 +1,36 @@
+=pod
+
+One of the first things that I did as an official Dickinsonian was to get my 
+email account up and running. Silly as it may sound, I had just finished up at 
+my old job, but I wa s still living in Chicago, preparing for my move. Setting 
+up my email account was one way that I could start building my new identify even 
+if I wasn't on campus.
+
+The process for this was surprisingly difficult to find. Maybe I missed 
+something in the new-hire documents, but I could not find any instructions. It 
+turned out that the process is very easy. Furthermore, the email account has 
+apparently been in place since late April, and I have even received some 
+important correspondence via that account which I did not know about until July.
+
+The process if quite simple. I merely had to contact Dickinson's IT help desk 
+and give them my full name, the last four digits of my Social Security number, 
+my birthdate, and my home address. Shockingly, I was asked to send this 
+information via email, which I think is not nearly secure enough of a medium to 
+handle this kind of sensitive information. So, I called them and we took care of 
+this over the phone instead. Once I had logged in and changed my password, I 
+also had to clear out my browser's cookies, at which point everything worked.
+
+I figured all of this out by emailing the help desk and asking where to begin. 
+On July 15, I received an email from the Office of the Associate Provost for 
+Academic Affairs with these instructions. Why, I wonder, did they not send these 
+instructions shortly after I had been added to the system in April? As I 
+mention, I had emails dated from late April, so it seems like I could have set 
+this up much sooner and started working on new-hire materials through their 
+secure Gateway well before I was officially on staff, July 1.
+
+All of this is just me venting if I don't do something about it. I suppose I 
+should bring this up with the department chair and we'll see where it goes from 
+there. The change is simple, it's not like I'm raising a big issue. I think I 
+just need to raise it and make sure it works its way into next year's process.
+
+=cut

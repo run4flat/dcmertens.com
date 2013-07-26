@@ -1,0 +1,36 @@
+=pod
+
+I arrived in Carlisle last Monday evening, seven days ago. My how time flies!
+
+Even though I didn't plan on getting any work done Monday evening, I still 
+couldn't keep myself from heading into the office. I was very excited to finally 
+be in my new job and new space. I rearranged the furniture a little bit and 
+unpacked the few books that I specifically brought for the next couple of weeks. 
+(Most of my books are being held in storage by our moving company.)
+
+The next day, I met with Brett Pearson and discussed the electronics course, 
+Physics 213. I will use Brett's notes as a starting point for my own, so getting 
+a copy of them was an important first step. Brett also helped me get my ID and 
+otherwise set things up.
+
+I was a little surprised that a computer wasn't already in my office when I 
+arrived, but it showed up one evening after I had left work. It must have been 
+Wednesday evening, as I was in the office pretty late Tuesday night. I worked on 
+setting it up for the rest of the week, and this morning was the first morning 
+that it felt like it was ready for me to just use when I got into the office.
+
+I have had wonderful conversations with Catrina, Hans, Brett, and Lars. Lars and 
+I especially had some good technical conversations about synchronization, both 
+on one of my own projects and one of his.
+
+I found myself at the end of the day on Friday wishing I had accomplished more 
+course preparation. I was concerned about the quantity of material that is new 
+to me in this course and the rate at which I am getting through it. I feel much 
+better about things on this Monday morning, but I still have a great deal of 
+work ahead of me.
+
+Having spent a weekend with my sister in New York, I feel refreshed and ready to 
+go. Last week was focused on setting things up. Now it is time to launch into 
+preparations.
+
+=cut

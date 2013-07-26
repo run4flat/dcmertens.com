@@ -1,0 +1,145 @@
+=pod
+
+It seems that every new job is accompanied by a whole host of reading to get 
+started. I had the unfortunate experience in my previous job that one of the 
+primary documents was not given to me until after I had been on the job for six 
+months. Although my experience with the Dickinson startup materials has included 
+both well structured and poorly structured documents, I have mostly been happy 
+with the process.
+
+=head2 Faculty Handbook
+
+One of the best written documents for getting started at Dickinson is the 
+Faculty Handbook. (It seems that there are no links to the handbook chapters at 
+the moment, which is unfortunate; a link to the handbook was provided in my 
+offer letter and I thankfully downloaded the PDFs at that time.) The handbook is 
+a PDF document with chapters and most of the writing is well crafted.
+
+I claim that the Faculty Handbook is one of the easiest documents to read, and I 
+have four reasons for that claim. First, the writing is polished throughout much 
+of the document. It may be technical and dry in parts, but there are few (if 
+any) typography errors, and little of it is superfluous. Second, it is the 
+authoritative source. I know that my efforts to get through the dry parts of the 
+document will pay off in knowing where to find important information and 
+procedures. Third, it is a traditional document. Compared with web sites, I find 
+it much easier to identify where to begin reading (first page), how much 
+material I've covered (current page), how much remains (also current page), and 
+when I've finished (last page). Fourth, I was sent a link to this collection of 
+documents shortly after accepting the position. In other words, it was easy to 
+find. The document is well written, authoritative, obvious to navigate, and easy 
+to find.
+
+=head2 Email Setup
+
+For a contrasting example, consider the series of documents encountered when 
+trying to set up my email login credentials. As I L<explained 
+yesterday|http:/blog/07/23-Setting-up-Dickinson-Gateway.pod>, the process is 
+simple once you realize that you must speak with a human. This sort of thing 
+belongs in a Faculty Getting Started Guide, which should be distributed to 
+members as soon as they start at Dickinson.
+
+The route that culminated in my credential setup started with a search of my 
+email messges. It became evident that I had not gotten any setup instructions in 
+my inbox, so I next performed a Google search for "Dickinson set up email", 
+which appeared to have information for setting up email clients for already 
+existing email accounts. I next searched for the more general "Dickinson 
+information technology", leading me to the L<library home 
+page|http://library.dickinson.edu/>. Ignoring the plethora of links and reading 
+the paragraph that is on the page, I decided that I should probably follow the 
+L<Technology link|http://library.dickinson.edu/Technology/> at the lower left of 
+the page if I wanted to set up my email address. The first piece of content on 
+that page has the header "First Year at Dickinson? Start Here:" and I thought I 
+was in the right place, but that was for students, not faculty. The next section 
+was about wireless and I wasn't yet on campus, so I skipped it, and finally came 
+to the Dickinson Gateway. The Gateway "provides students, faculty and staff with 
+secure access to Dickinson College online services. From the Gateway, you can 
+check E-mail..." Aha! Now I've found it, I thought to myself. That page is a 
+sign-in page: "Enter your Username and Password." I didn't have one yet, so I 
+looked at the other links, and discovered to my dismay that all of them were 
+only useful if I already had my account set up. All of the institutions where I 
+have worked have had an automated setup system, and I was sure that Dickinson 
+would too, so I back-tracked kept looking.
+
+Back on the Technology main page, my eyes fell upon the "New to Campus" link in 
+the menu on the left. Aha! The ensuing page is uncluttered: "New students, 
+faculty and staff often have many questions about technology at the College. To 
+help, LIS has provided the following online orientations." Perfect. Surely here 
+they will have instructions for setting up email. I followed the link for New 
+Faculty and Staff and soon became disheartened. The page had paragraphs 
+explaining the internet in terms that would have been helpful in the mid-90s, 
+but which was woefully out of date for the present. At multiple points in this 
+document and elsewhere, I read that I can contact the help desk if I have a 
+computer related problem, but I am convinced that this is not a problem, I just 
+need to find the right page to set up my credentials. I find a nice bold bullet 
+point for Electronic Mail, describing itself as "If you would like step-by-step 
+instructions for learning this system, please click here." Unfortunately, the 
+link leads not to step-by-step instructions, but to the L<Tutorials 
+Index|http://lis.dickinson.edu/Technology/Training/Tutorials/index.html>. This 
+page truly is an index: there must be over 100 links on the page in carefully 
+organized groups, with narry a complete sentence on the whole page. I followed a 
+number of these links before finally breaking down and sending an email to the 
+help desk.
+
+=head2 Teaching Center Without Walls
+
+An interesting document that sits somewhere between the Faculty Handbook and 
+(the lack of information for) the Gateway credentials setup is the L<Teaching 
+Center Without Walls|http://tcww.dickinson.edu/>. This website presents a series 
+of chapters with sections and subsections (and occasionally subsubsections). 
+This document explains some of the things that are expected of faculty, as well 
+as providing some tips and best practices for teaching.
+
+Like the Faculty Handbook, a was directed to this site by a link sent via email, 
+making it easy to find. Also like the faculty handbook, the material is 
+organized like a traditional document, so I feel confident reading it from start 
+to finish, knowing that I will have learned what they intended to teach me. 
+However, the TCWW guide differs from the Faculty Handbook in some important 
+respects.
+
+The writing is not as polished as the handbook. I don't think that is a problem. 
+It states that top that we, the faculty, are to currate and contribute to this 
+document, so a few rough edges is an opportunity to get involved. Unfortunately, 
+contributing is difficult, as I will explain shortly.
+
+A larger problem with the TCWW guide is that it contains a number of dead links, 
+and a number of other links point to internal pages that require Gateway 
+credentials. When I started reading the document I did not have Gateway 
+credentials and I began to fear that I would need to re-read the document once I 
+obtained those credentials. This put a damper on my desire to read this 
+material. It was all the more frustrating for pages whose content had no 
+apparent reason to be locked away. My enthusiasm for reading new-to-campus 
+documents degrades over time, so the dampening effect of these dead or 
+inaccessible links has made getting through the guide much more difficult.
+
+One thing open-source development has taught me is that the barrier to first 
+contribution must be small. The steps should be as obvious and as painless as 
+possible. The TCWW guide attempts to engage new readers in the editorial process 
+by stating that "We hope you will make this guide to teaching your own," and 
+there are plenty of small but rough edges that need polishing. B<But, 
+critically, it was not obvious how I was to log in to the system to make edits.> 
+Not only was there no sign-up link, but it turns out that TCWW uses the Gateway 
+system, too, but it doesn't say that anywhere. (If I had known this, I would 
+have pushed to get my Gateway credentials and held off reading this guide.) 
+Furthermore, even after I managed to log-in today, I discovered I have no 
+editorial control over the content. I cannot currate any of the material or even 
+add sections within the structure of the document. The closest thing to adding 
+new material is to add comments on individual pages in the document. How am I to 
+make this material my own if I can't add anything except comments? Am I supposed 
+to comment on things, and then let the owner of the admin account synethesize my 
+points?
+
+=head2 Conclusion
+
+In spite of my complaints, I believe that the TCWW setup is ultimately the way 
+to go for Getting Started guides once the barrier to first contribution has been 
+drastically reduced. In fact, I would argue that it is the way to go for the 
+vast majority of the content at Dickinson. If the goal of a site is to offer a 
+service, such as checking email, booking a room, or electing benefits, then it 
+should be a form-based web page. If the goal of a site is to offer information, 
+it needs to be in a format that is easily digested by the reader. It has now 
+been over a decade since the dot-com boom, and it is time that we realize that 
+circularly-linked HTML pages may not be the best way to present information. As 
+my praise for Faculty Handbook makes clear, I think that a traditional document 
+gives a clear flow of topics and is the best way to create such a guide.
+
+=cut
