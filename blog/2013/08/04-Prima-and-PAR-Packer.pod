@@ -1,0 +1,117 @@
+=pod
+
+I recently had the experience of packaging a relatively simple GUI app,
+written using L<Prima>, to be run on machines that didn't have Perl. This
+led me to learn some interesting aspects about L<Prima> and L<PAR::Packer>
+that I didn't quite realize, and which were very instructive.
+
+L<PAR::Packer> takes the contents of your Perl script along with the modules
+that it depends on and builds a self-executing archive that includes libperl.
+This way, you can turn a Perl script into an executable that you can run on
+another person's machine without them needing Perl or your modules. I looked
+into this recently because of my interest in packaging a download-and-run
+version of my L<Prima REPL|App::Prima::REPL>.
+
+One of the great things about this code is that it can determine, fairly
+reliably, what modules need to be included in your archive. If the includes
+in your script are fairly simple, it can usually achieve all of this with
+static code analysis. However, if it gets complicated, the archiver can
+fall back on a mechanism in which it directly executes your code and tracks
+the modules that your program actually pulls in.
+
+It turns out this latter flag is necessary for packaging Prima applications.
+The reason for this stronger mechanism is that Prima performs dynamic
+inclusions, so a static analysis won't work. For example, you can say in
+your Prima code
+
+ use Prima qw(Buttons Label);
+
+rather than saying 
+
+ use Prima;
+ use Prima::Buttons;
+ use Prima::Label;
+
+This is very convenient, but prevents the static analysis from working
+properly. So for example, if your Prima-using script is called F<foo.pl>,
+and you want to build a stand-alone executable called F<foo> (or
+F<foo.exe> on Windows), you would say
+
+ pp -c -o foo foo.pl
+
+=head2 Full example
+
+To make this clear, let me give a complete example:
+
+ # answer.pl
+ use strict;
+ use warnings;
+ use Prima qw(InputLine Label Application);
+ 
+ # Build a one-window program
+ my $window = Prima::MainWindow->new(
+     height => 300, width => 200,
+ );
+ 
+ # Add our prompt
+ $window->insert(Label =>
+     text => 'What is the answer to life, the universe, and everything?',
+     pack => {
+         side => 'top', fill => 'x', padx => 10, pady => 5,
+     },
+     height => 80,
+     wordWrap => 1,
+ );
+ 
+ # Add the place where an answer may be supplied
+ $window->insert(InputLine =>
+     text => 'your answer',
+     pack => {
+         side => 'top', fill => 'x', padx => 10, pady => 5,
+     },
+     onKeyUp => sub {
+         my $self = shift;
+         if ($self->text == 42) {
+             $window->response->text(
+               'Yes, but what is the question?'
+             );
+         }
+         else {
+             $window->response->text(
+               'Looks like you need to do some more reading.'
+             );
+         }
+     },
+ );
+ 
+ # Add the response
+ $window->insert(Label =>
+     text => '',
+     pack => {
+         side => 'top', fill => 'both', expand => 1,
+         padx => 10, pady => 5,
+     },
+     name => 'response',
+     wordWrap => 1,
+ );
+ 
+ Prima->run;
+
+If you call this F<question.pl>, you can then package it by saying
+
+ pp -c -o question question.pl
+
+It should then run on your machine, even if you deleted Perl from it.
+
+=head2 But this won't necessarily run elsewhere
+
+The great thing about L<PAR::Packer> is that it'll pull in not only the
+Perl modules that your software requires, but even the XS-based extension
+libraries. Unfortunately, the system stops at that point, and Prima needs it
+to go one step further. Prima is compiled to interface with a number of
+external libraries on your machine, most 
+
+Unfortunately, Prima (along with many other Perl modules) links to external
+libraries. 
+
+=cut
