@@ -1,0 +1,62 @@
+=pod
+
+Getting through the initial stage of a literature review can be daunting for 
+anybody entering a new field. Ideally an advisor would hand a collection of good 
+starting papers and have the student read through them. In my case, my advisor 
+was not an expert in my eventual field of research---synchronization. I had to
+do my own work to become acquainted with the literature.
+
+My solution to organize and get through my reading was to create Lit Review 
+Volumes. I printed off a collection of papers and took them to a local Kinkos 
+(Fedex Office?) to bind them together. I had a table of contents on the opening 
+page, and I hand-numbered all of the pages to make it easy to find. To give 
+myself space for notes without wasting too much paper, I printed two pages on 
+one side of an 8.5" x 11" sheet of paper and left the other side blank. This 
+gave me a note page "above" whatever I was presently reading. It also left me 
+with a blank page at the very end, and I used that space to note any articles 
+that I wanted to include in my next lit review volume. Finally, I imposed one
+strict rule: I had to read the articles in full, and in order. This method of
+organizing the articles and forcing myself to get through the material propelled
+me enthusiastically through my reading.
+
+This method of organizing my literature review, and forcing myself to read the 
+articles in order, served as an excellent psychological aid in getting through 
+the literature. I intentionally placed boring articles before good ones, giving 
+myself motivation to get through everything. I also tended to put particular 
+good articles at the very end to keep me working through the material. By the 
+time I reached the end of the volume, I had a surprising sense of 
+accomplishment. Also, by tracking the articles that I wanted to read next, I 
+built up anticipation for the next volume that I would read, which helped me 
+keep up the regular reading. All of these factors came together to get me 
+through many important articles in a matter of a few months.
+
+Although I originally organized my lit review into volumes for motivational 
+purposes, it has proven very useful for quickly finding important articles. Once 
+during a conversation with my advisor, he asked about an article, and said he 
+would give me time to find it. I knew which volume contained the material, so I 
+immediately turned to my desk, found the article in the table of contents, and 
+handed the volume to him. He was pleasantly surprised. Even now, three or four
+yeas after reading the volumes, I can glance at the table of contents and
+remember what most of the articles contain. Even though the volumes are somewhat
+arbitrary, they serve as a larger context that helps me remember the content of
+the articles.
+
+My lit review volumes serve as a useful map of the history of my knowledge of 
+the field. Knowing my path through the literature gives me a starting point for
+helping a newcomer navigate the literature. In particular, I can recall just how
+useful a particular article may have been, and how another article may be less
+helpful. I can then suggest a series of articles for a new student to get up to
+speed.
+
+One final note. My lit review volumes were my first act of taking ownership of 
+my knowledge and research. They were a small innovation that worked well with my 
+sense of motivation. By designing my own route through the literature, I 
+developed a sense for the conceptual landscape of the field and the confidence 
+to choose a next step for my own research.
+
+Although it was a simple organizing principle, creating Lit Review Volumes hit a 
+sweet spot and have proven beneficial in many ways. I highly recommend this 
+approach to any grad student who is planning any serious literature review 
+process.
+
+=cut
